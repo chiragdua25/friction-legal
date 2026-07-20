@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="{{ "/" | relURL }}" aria-label="Friction Legal home">
+        <span class="brand-mark">F</span><span>Friction</span>
+      </a>
+      <nav aria-label="Legal pages">
+        <a href="{{ "/privacy-policy/" | relURL }}">Privacy</a>
+        <a href="{{ "/terms-and-conditions/" | relURL }}">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>Friction</span><span>Official legal pages</span></div></footer>
+</body>
+</html>
