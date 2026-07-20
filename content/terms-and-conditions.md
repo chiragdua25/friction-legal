@@ -7,7 +7,7 @@ description: 'The terms that govern use of Friction.'
 
 These Terms and Conditions ("Terms") govern your use of the Friction Android application ("Friction", "the app", "we", "us", or "our"), provided by Chirag Dua. By downloading, installing, or using Friction, you agree to these Terms. If you do not agree, do not use the app.
 
-Your use of Friction is also subject to the [Friction Privacy Policy]({{< ref "privacy-policy.md" >}}).
+Your use of Friction is also subject to the [Friction Privacy Policy](https://chiragdua25.github.io/friction-legal/privacy-policy/).
 
 ## 1. What Friction Does
 
@@ -44,7 +44,7 @@ Some features require Android permissions or special access. These may include:
 
 You can review or revoke these permissions in Android Settings. Removing a permission may prevent related Friction features from working.
 
-For more information about how Friction handles data associated with these features, read the [Friction Privacy Policy]({{< ref "privacy-policy.md" >}}).
+For more information about how Friction handles data associated with these features, read the [Friction Privacy Policy](https://chiragdua25.github.io/friction-legal/privacy-policy/).
 
 ## 5. Licence to Use Friction
 
