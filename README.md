@@ -1,4 +1,4 @@
-﻿# Friction Legal
+# Friction Legal
 
 The public legal website for the Friction Android app.
 

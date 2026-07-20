@@ -1,4 +1,4 @@
-﻿baseURL = 'https://chiragdua25.github.io/friction-legal/'
+baseURL = 'https://chiragdua25.github.io/friction-legal/'
 languageCode = 'en-IN'
 title = 'Friction Legal'
 disableKinds = ['taxonomy', 'term']
