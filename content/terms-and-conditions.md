@@ -93,4 +93,4 @@ By continuing to use Friction after updated Terms take effect, you agree to the 
 For questions about these Terms, contact:
 
 **Chirag Dua**  
-chiragdua025@gmail.com
+cdua.friction@gmail.com
