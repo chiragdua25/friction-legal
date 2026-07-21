@@ -65,7 +65,7 @@ Friction does not provide accounts, so there is no account or server-side profil
 
 If you choose to email us with a bug report, feature request, or privacy question, we receive the information you include in that email, such as your email address, device model, Android version, and description of the issue. We use that information only to respond to your request or improve Friction. We do not add it to a marketing list or sell it.
 
-We retain support correspondence only for as long as reasonably necessary to respond, maintain support records, or meet legal obligations. To request deletion of a support email, contact us at **chiragdua025@gmail.com**.
+We retain support correspondence only for as long as reasonably necessary to respond, maintain support records, or meet legal obligations. To request deletion of a support email, contact us at **cdua.friction@gmail.com**.
 
 ## Children
 
@@ -84,4 +84,4 @@ We may update this Privacy Policy when Friction's data practices change. We will
 For privacy questions or requests, contact:
 
 **Chirag Dua**  
-**Email:** chiragdua025@gmail.com
+**Email:** cdua.friction@gmail.com
