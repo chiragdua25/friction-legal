@@ -11,7 +11,7 @@ Your use of Friction is also subject to the [Friction Privacy Policy](https://ch
 
 ## 1. What Friction Does
 
-Friction is a digital wellbeing and productivity tool. It can add a deliberate pause before selected apps open and, when enabled, after you unlock your device. It may also let you lock your phone when you choose the Close phone option.
+Friction is a digital wellbeing and productivity tool. It can add a deliberate pause before selected apps open and, when enabled, after you unlock your device.
 
 Friction is not a medical, mental-health, emergency, parental-control, anti-theft, security, or communications service. It does not guarantee changes to your behaviour, wellbeing, attention, productivity, or screen time.
 
@@ -38,7 +38,7 @@ You decide which apps and presets to configure, whether to enable lockscreen fri
 Some features require Android permissions or special access. These may include:
 
 - **Accessibility access**, which lets Friction notice when a selected app becomes active so it can show a friction gate;
-- **Device administrator access**, which is used only for the Close phone action you initiate;
+- **Display over other apps**, which lets Friction show a friction gate over other apps
 - **Battery optimisation settings**, which can help the app work more reliably in the background; and
 - **Notification permission**, which allows Friction to send optional reminders where supported.
 
