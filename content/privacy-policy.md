@@ -41,6 +41,7 @@ Friction stores its settings in private Android app storage on your device. We d
 Friction asks for or uses the following Android permissions and system features:
 
 - **Accessibility Service / App monitor:** required for Friction to detect when selected apps become active and show a gate. You enable this in Android Accessibility settings after seeing Friction's in-app explanation.
+- **Display over other apps:** required for friction gate to appear over apps selected by user.
 - **Battery optimisation settings:** used to help Friction remain reliable in the background. The app opens Android settings so you can choose the appropriate option for your device.
 - **Notifications:** optional. Used only for occasional Friction reminders. You can decline this permission or turn notifications off later in Android settings.
 - **Installed-app visibility:** used to show launchable apps in the app picker and to apply the presets you choose.
