@@ -19,7 +19,6 @@ Friction handles the following information locally on your device to provide its
 - **Friction settings:** preset names, schedules, durations, lockscreen settings, emergency-exit settings, gate-message preferences, theme preference, and onboarding status.
 - **Foreground-app events:** when the Accessibility Service is enabled, Friction receives the package name of the app whose window becomes active so it can decide whether to show a gate. Friction is configured not to retrieve window content, text typed into apps, screenshots, passwords, messages, contacts, or web browsing content.
 - **Screen state:** when lockscreen friction is enabled, Friction uses device screen-off and user-unlock events to decide when to show a lockscreen gate.
-- **Device-admin status:** if you enable the Close phone feature, Friction checks whether its device-admin component is active. It uses that capability only to lock the device when you choose Close phone.
 - **Battery-reliability status:** Friction checks whether Android is allowing it to run without battery optimisation so its gate can work reliably.
 - **Notification preference:** if you allow notifications, Friction may schedule occasional on-device reminders. Reminder scheduling and message selection happen locally.
 
@@ -30,8 +29,7 @@ Friction uses this information only to:
 - show the installed apps that can be selected for a preset;
 - apply the friction gate to your chosen apps and, if enabled, after device unlock;
 - remember your settings and complete an active friction timer;
-- avoid interrupting active or ringing phone calls;
-- lock the phone only after you choose Close phone; and
+- avoid interrupting active or ringing phone calls; and
 - send occasional Friction reminders when notifications are allowed.
 
 ## Storage and Sharing
@@ -43,7 +41,6 @@ Friction stores its settings in private Android app storage on your device. We d
 Friction asks for or uses the following Android permissions and system features:
 
 - **Accessibility Service / App monitor:** required for Friction to detect when selected apps become active and show a gate. You enable this in Android Accessibility settings after seeing Friction's in-app explanation.
-- **Device Admin / Close phone:** required to lock the device only when you choose Close phone. You can remove this permission in Android device-admin settings.
 - **Battery optimisation settings:** used to help Friction remain reliable in the background. The app opens Android settings so you can choose the appropriate option for your device.
 - **Notifications:** optional. Used only for occasional Friction reminders. You can decline this permission or turn notifications off later in Android settings.
 - **Installed-app visibility:** used to show launchable apps in the app picker and to apply the presets you choose.
